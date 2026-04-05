@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment Channel</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <img src="icons/icon.png" alt="Logo">
+          <h1>Entertainment</h1>
+        </div>
+        <div class="subtitle">Movies, Series & Live IPL Action</div>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-target="south-movies">Movies (South)</button>
+      <button class="tab-btn" data-target="south-tv">Series</button>
+      <button class="tab-btn" data-target="english-movies">Hollywood</button>
+      <button class="tab-btn" data-target="sports">Cricket</button>
+      <div class="tab-indicator"></div>
+    </nav>
+
+    <main class="content-area">
+      <div id="south-movies" class="tab-pane active">
+        <!-- Content injected by JS -->
+      </div>
+      <div id="south-tv" class="tab-pane">
+        <!-- Content injected by JS -->
+      </div>
+      <div id="english-movies" class="tab-pane">
+        <!-- Content injected by JS -->
+      </div>
+      <div id="sports" class="tab-pane">
+        <!-- Content injected by JS -->
+      </div>
+    </main>
+  </div>
+  
+  <script src="mockData.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

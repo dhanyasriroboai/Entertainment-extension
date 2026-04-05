@@ -51,7 +51,3 @@ Entertainment-extension/
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-# Entertainment-extension
-# Entertainment-extension
-# Entertainment-extension
-# Entertainment-extension
